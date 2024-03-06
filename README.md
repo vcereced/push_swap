@@ -20,12 +20,11 @@
 </p>
 
 ## &#x1F4CC; Index 
-- [📌 Index](#-index)
-- [✨ What is push\_swap?](#-what-is-push_swap)
-- [🕹 Movements](#-movements)
-- [🛠 Algorithm](#-algorithm)
-- [💻 Usage](#-usage)
-- [📖 Examples](#-examples)
+- [What is push\_swap?](#-what-is-push_swap)
+- [Movements](#-movements)
+- [Algorithm](#-algorithm)
+- [Usage](#-usage)
+- [Examples](#-examples)
 
 ## &#x2728; What is push_swap?
 
@@ -62,7 +61,6 @@ Visualization should be:
 ![Screen-Recording-2024-03-06-at-8 50 31-PM-ezgif com-resize](https://github.com/vcereced/push_swap/assets/120835200/a3e789b9-3a6f-49b6-ac31-58482bc2d87c)
 
 
-
 ## &#x1F4BB; Usage
 
 `make` to compile.
@@ -75,32 +73,25 @@ Visualization should be:
 
 ## &#x1F4D6; Examples
 
-Let's create a ``example.fdf`` file with a grid of heights of the map.
-
-```
-15 12 10 9  5  4  0  0  0  0
-12 10 9  5  4  0  0  0  0  0
-10 9  5  4  0  0  2  0  0  0
-9  5  4  0  0  2  5  2  0  0
-5  4  0  0  2  5  8  5  2  0
-5  4  0  0  0  2  5  2  0  0
-9  5  4  0  0  0  2  0  0  0
-10 9  5  4  0  0  0  0  0  0
-10 10 9  5  4  0  0  0  0  0
-15 12 10 9  5  4  0  0  0  0
-```
 Execute this command in the terminal.
 
 ```bash
-make  && ./fdf ./example.fdf 
+nums="9 8 7 6 5 4" && ./push_swap $nums 
 ```
 Output should be:
 
-<img width="521" src="https://github.com/vcereced/fdf/assets/120835200/355e7150-8a12-4849-983e-38bcc1bdc5ea">
-
-With bonus features.
 ```bash
-make bonus  && ./fdf ./test_maps/42.fdf 
+rra
+pb
+rra
+pb
+rra
+pb
+sa
+rra
+pa
+pa
+pa
 ```
-Output should be:
+
 
