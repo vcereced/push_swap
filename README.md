@@ -49,7 +49,19 @@ This project requires to sort data in a stack, using a limited set of instructio
 
 ## &#x1F6E0; Algorithm
 
-IMAGEN ALGORITHM
+Schema of logic:
+
+
+<img src="https://github.com/vcereced/push_swap/assets/120835200/8eacd016-1c5c-4ab6-a111-9ebf4c27ce3d" alt="push" width="600">
+
+
+<br /><br />
+Visualization should be:
+
+
+![Screen-Recording-2024-03-06-at-8 50 31-PM-ezgif com-resize](https://github.com/vcereced/push_swap/assets/120835200/a3e789b9-3a6f-49b6-ac31-58482bc2d87c)
+
+
 
 ## &#x1F4BB; Usage
 
