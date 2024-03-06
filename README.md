@@ -4,8 +4,8 @@
   </a>
 
   <p align="center">
-    Because simple graphics is not enougth<br>
-    Project fdf of 42 school
+    The least amount of moves to sorting two stacks<br>
+    Project push_swap of 42 school
     <br />
 	</p>
 </p>
@@ -20,35 +20,42 @@
 </p>
 
 ## &#x1F4CC; Index 
-- [What is FdF?](#-what-is-fdf)
-- [Controles](#-controles)
-- [Usage](#-usage)
-- [Examples](#-examples)
+- [📌 Index](#-index)
+- [✨ What is push\_swap?](#-what-is-push_swap)
+- [🕹 Movements](#-movements)
+- [🛠 Algorithm](#-algorithm)
+- [💻 Usage](#-usage)
+- [📖 Examples](#-examples)
 
-## &#x2728; What is FdF?
+## &#x2728; What is push_swap?
 
-FdF is a project in which we convert a file with a grid of height values into a 3d wireframe using a simple graphics.
+This project requires to sort data in a stack, using a limited set of instructions, and with the fewest possible operations. To succeed, you will sort 100 numbers with maximun 700 movements and 500 numbers in 5000.
 			
-## 🕹 Controles
+## 🕹 Movements
 
-|Input|Action|
+| | |
 |---|---|
-|`UP`| Increasing heights|
-|`DONW`|  Decreasing heights|
-|`4 / 8 / 6 / 2`| X axis Y axis movements|
-|`/`| Increasing zoom |
-|`*`| Decreasing zoom |
-|`+`| Increasing scale|
-|`-`| Decreasing scale|
-|`2`| change isometric mode |
-|`3`| change isometric mode|
-|`ESC`|Cierra la ventana|
+|`sa`| swap the first 2 elements at the top of stack a.|
+|`sb`|  swap the first 2 elements at the top of stack b.|
+|`ss`| sa and sb at the same time.|
+|`pa`| take the first element at the top of b and put it at the top of a. |
+|`pb`| take the first element at the top of a and put it at the top of b. |
+|`ra`| shift up all elements of stack a by 1. |
+|`rb`| shift up all elements of stack b by 1. |
+|`rr`| ra and rb at the same time. |
+|`rra`| shift down all elements of stack a by 1. |
+|`rrb`|shift down all elements of stack b by 1. |
+|`rrr`|rra and rrb at the same time. |
+
+## &#x1F6E0; Algorithm
+
+IMAGEN ALGORITHM
 
 ## &#x1F4BB; Usage
 
 `make` to compile.
 
-`bonus` to compile with bonus features.
+`exe` to compile and run a example of unsorted numbers.
 
 `make clean` remove .o files.
 
@@ -77,7 +84,7 @@ make  && ./fdf ./example.fdf
 ```
 Output should be:
 
-<img width="521" alt="Screen Shot 2024-03-06 at 12 35 29 PM" src="https://github.com/vcereced/fdf/assets/120835200/355e7150-8a12-4849-983e-38bcc1bdc5ea">
+<img width="521" src="https://github.com/vcereced/fdf/assets/120835200/355e7150-8a12-4849-983e-38bcc1bdc5ea">
 
 With bonus features.
 ```bash
