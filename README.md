@@ -18,13 +18,6 @@
   
 </p>
 
-## &#x1F4CC; Index 
-- [What is push\_swap?](#-what-is-push_swap)
-- [Movements](#-movements)
-- [Algorithm](#-algorithm)
-- [Usage](#-usage)
-- [Examples](#-examples)
-
 ## &#x2728; What is push_swap?
 
 This project requires to sort data in a stack, using a limited set of instructions, and with the fewest possible operations. To succeed, you will sort 100 numbers with maximun 700 movements and 500 numbers in 5000.
